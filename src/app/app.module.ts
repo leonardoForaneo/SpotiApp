@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 //PIPEs
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     ArtistaComponent,
     NavbarComponent,
     NoimagePipe,
+    TarjetasComponent,
   ],
   imports: [
     BrowserModule,
